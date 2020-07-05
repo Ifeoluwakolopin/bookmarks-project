@@ -10,3 +10,6 @@
 #certfiles
 certfile.crt
 certfile.key
+
+#cached files
+*__pycache__*
