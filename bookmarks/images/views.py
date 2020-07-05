@@ -76,7 +76,7 @@ def image_list(request):
         return render(request,
         'images/image/list_ajax.html',
         {'section':'images', 'images':images})
-    render(request, 
+    return render(request, 
     'images/image/list.html',
     {'section':'images', 'images':images})
         
