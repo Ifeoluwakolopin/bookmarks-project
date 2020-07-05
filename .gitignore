@@ -1,0 +1,12 @@
+#Editor directories
+.vscode/
+
+#Environment files
+.env
+
+#database
+db.sqlite3
+
+#certfiles
+certfile.crt
+certfile.key
