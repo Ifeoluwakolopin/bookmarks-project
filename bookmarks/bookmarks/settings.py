@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 from dotenv import load_dotenv, find_dotenv
+from django.urls import reverse_lazy
 
 load_dotenv(find_dotenv())
 
@@ -147,3 +148,8 @@ AUTHENTICATION_BACKENDS = [
 SOCIAL_AUTH_FACEBOOK_KEY = os.environ['SOCIAL_AUTH_FACEBOOK_KEY']
 SOCIAL_AUTH_FACEBOOK_SECRET = os.environ['SOCIAL_AUTH_FACEBOOK_SECRET']
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
+
+ABSOLUTE_URL_OVERRIDES = {
+'auth.user': lambda u: reverse_lazy('user_detail',
+args=[u.username])
+}
