@@ -40,8 +40,7 @@ def dashboard(request):
     'account/dashboard.html', {'section':'dashboard'})
 
 def register(request):
-
-    if request. method == 'POST':
+    if request.method == 'POST':
         user_form = UserRegistrationForm(request.POST)
         if user_form.is_valid():
             new_user = user_form.save(commit=False)
