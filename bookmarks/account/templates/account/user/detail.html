@@ -12,13 +12,12 @@
     <span class="total">{{ total_followers }}</span>
     follower{{ total_followers|pluralize }}
 </span>
-<a href="#" data-id="{{ user.id }}"
- data-action="{% if request.user in user.followers.all %}un{% endif %}follow" class="follow button">
-    {% if request.user not in user.followers.all %}
+<a href="#" data-id="{{ user.id }}" data-action="{% if request.user in user.followers.all %}un{% endif %}follow" class="follow button">
+   {% if request.user not in user.followers.all %}
     Follow
-    {% else%}
+   {% else%}
     Unfollow
-    {% endif %}
+   {% endif %}
 </a>
 <div id="image-list" class="image-container">
     {% include "images/image/list_ajax.html" with images=user.images_created.all %}
@@ -31,7 +30,7 @@ $('a.follow').click(function(e){
     e.preventDefault();
     $.post('{% url "user_follow" %}',
     {
-        id: $(this).data('id')
+        id: $(this).data('id'),
         action: $(this).data('action')
     },
     function(data){
@@ -50,7 +49,7 @@ $('a.follow').click(function(e){
             var previous_followers = parseInt(
                 $('span.count .total').text());
             $('span.count .total').text(previous_action == 'follow' ?
-             previous_followers + 1 : previous_followers - 1)
+            previous_followers + 1 : previous_followers - 1);
         }
     });
 });
