@@ -68,7 +68,7 @@ def image_list(request):
     try:
         images = paginator.page(page)
     except PageNotAnInteger:
-        #If page is not an integer deliver th efirst page
+        #If page is not an integer deliver the first page
         images = paginator.page(1)
     except EmptyPage:
         if request.is_ajax():
