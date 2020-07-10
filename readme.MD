@@ -22,11 +22,17 @@ It's a very great book that has been my guide to learning Django. :smile:
 - Django (Python)
 
 # Screenshots
-Log-In
+
+<strong>Some screenshots of the web app</strong>
+<br>
+<strong>Log-In</strong>
+
 ![Alt text](https://github.com/Ifeoluwakolopin/bookmarks-project/blob/master/bookmarks/screenshots/login.png)
+<br>
+<strong>Images</strong>
 
-Images
 ![Alt text](https://github.com/Ifeoluwakolopin/bookmarks-project/blob/master/bookmarks/screenshots/images.png)
+<br>
+<strong>People</strong>
 
-People
 ![Alt text](https://github.com/Ifeoluwakolopin/bookmarks-project/blob/master/bookmarks/screenshots/people.png)
