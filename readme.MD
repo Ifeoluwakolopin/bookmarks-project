@@ -23,9 +23,10 @@ It's a very great book that has been my guide to learning Django. :smile:
 
 # Screenshots
 Log-In
-![Alt text](bookmarks/screenshots/login.png)
-Images
-![Alt text](bookmarks/screenshots/images.png)
-People
-![Alt text](bookmarks/screenshots/people.png)
+![Alt text](https://github.com/Ifeoluwakolopin/bookmarks-project/blob/master/bookmarks/screenshots/login.png)
 
+Images
+![Alt text](https://github.com/Ifeoluwakolopin/bookmarks-project/blob/master/bookmarks/screenshots/images.png)
+
+People
+![Alt text](https://github.com/Ifeoluwakolopin/bookmarks-project/blob/master/bookmarks/screenshots/people.png)
