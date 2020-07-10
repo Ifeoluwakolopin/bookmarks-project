@@ -14,7 +14,7 @@ db.sqlite3
 db.sqlite3-journal
 media
 static
-screenshots
+
 
 #certfiles
 certfile.crt
