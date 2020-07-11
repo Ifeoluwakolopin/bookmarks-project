@@ -24,10 +24,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = '8&glia-(lw^2t1+jdt8yytogm+be1v0tb@jz_i9jw2=*m4(rou'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ['DEBUG']
+DEBUG = True
 
 ALLOWED_HOSTS = ['mysite.com', 'localhost', '127.0.0.1']
 
@@ -147,8 +147,8 @@ AUTHENTICATION_BACKENDS = [
     'social_core.backends.twitter.TwitterOAuth',
 ]
 
-SOCIAL_AUTH_FACEBOOK_KEY = os.environ['SOCIAL_AUTH_FACEBOOK_KEY']
-SOCIAL_AUTH_FACEBOOK_SECRET = os.environ['SOCIAL_AUTH_FACEBOOK_SECRET']
+SOCIAL_AUTH_FACEBOOK_KEY = # Facebook app id
+SOCIAL_AUTH_FACEBOOK_SECRET = # Facebook app secret
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
 
 ABSOLUTE_URL_OVERRIDES = {
