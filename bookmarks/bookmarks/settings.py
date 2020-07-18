@@ -147,9 +147,9 @@ AUTHENTICATION_BACKENDS = [
     'social_core.backends.twitter.TwitterOAuth',
 ]
 
-SOCIAL_AUTH_FACEBOOK_KEY = # Facebook app id
-SOCIAL_AUTH_FACEBOOK_SECRET = # Facebook app secret
-SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
+#SOCIAL_AUTH_FACEBOOK_KEY
+#SOCIAL_AUTH_FACEBOOK_SECRET
+#SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
 
 ABSOLUTE_URL_OVERRIDES = {
 'auth.user': lambda u: reverse_lazy('user_detail',
