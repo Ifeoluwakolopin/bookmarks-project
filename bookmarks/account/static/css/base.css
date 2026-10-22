@@ -80,6 +80,23 @@ ol {
     padding-top:4px;
 }
 
+#header .logout-form {
+    display:inline;
+}
+
+#header .logout-form button {
+    background:none;
+    border:0;
+    padding:0;
+    color:#f3f7cc;
+    font:inherit;
+    cursor:pointer;
+}
+
+#header .logout-form button:hover {
+    color:#fff;
+}
+
 #content {
     padding:30px 100px;
 }
