@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c1dcceacf2c27b124f606cf78209dfa5ae15c4c62637a59b618792d9383afa82"
+            "sha256": "7240e32614b6938e70f577eac0f87696fcc8d96e765a1394858b8111f5cc1662"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -791,12 +791,12 @@
         },
         "oauthlib": {
             "hashes": [
-                "sha256:624c28c13a0a59cabf9747dfa52af63be3e512a7f2714df16e91b5b3a145e6cd",
-                "sha256:efb274799819440f95b4ab3b818869f1ce9ae26c5beacba0201d1a1b76b54f86"
+                "sha256:3d73febdb6faa00f277c81fb04be7b7586fb96fc3b7f0b9c772dada69a25ede7",
+                "sha256:498a298876e996301950a5b053d12c31628bb7b895db03666430c69ce182eb61"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.9'",
-            "version": "==4.0.0"
+            "version": "==4.0.1"
         },
         "pillow": {
             "hashes": [
@@ -1006,21 +1006,21 @@
         },
         "social-auth-app-django": {
             "hashes": [
-                "sha256:43002de0530e2ad13ef067f54aba7185a05fc8527310006c5328dc0b5e7a4cfd",
-                "sha256:652ec21105ef58a34ffd223a02c338bc03e5f56d357ee69c33283afd08442065"
+                "sha256:29502f0ca9a71df66e6335fcbf35cd617ed8304dd1a7694bc636c9fe0d0bd91b",
+                "sha256:2aab94273d5877e0192acc637bc1bff952897029a74ebdb4d3b9084852baa796"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.10'",
-            "version": "==6.0.1"
+            "version": "==7.0.0"
         },
         "social-auth-core": {
             "hashes": [
-                "sha256:c7250f0c1d539bb1420a7d165b240f066d866ec19d9b829e660260f024f0e2d3",
-                "sha256:f53930c9b2a86ee0fc8e8fb0eac79221cfc2f017d9efb578691e5a3e2cf36784"
+                "sha256:385771345372b9e87b448fe23b1ca4909fcbb0b752d1206600ab3c18342cd321",
+                "sha256:93daa49e5cb11e7ac06838690679fc6e2901d9add2ba8316651ee19aca26a340"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.10'",
-            "version": "==5.0.2"
+            "version": "==6.2.0"
         },
         "sqlparse": {
             "hashes": [
