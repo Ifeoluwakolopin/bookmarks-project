@@ -21,8 +21,8 @@ pipenv run python manage.py check
 
 `Pipfile.lock` is generated with Pipenv 2026.10.2. Django stays on the
 supported 5.2 LTS line, currently 5.2.18. Pillow 13.0.0 addresses advisories
-that also affect 12.3.0. Social-auth-app-django 6.0.1 permits the patched
-social-auth-core 5.0.2; core also requires Requests 2.34 or newer.
+that also affect 12.3.0. Social-auth-app-django 7.0.0 permits the patched
+social-auth-core 6.2.0; core also requires Requests 2.34 or newer.
 Redis-py 8.1.0 replaces the old client that imports Python's removed
 `distutils` module. The existing Redis commands and database selection remain.
 
@@ -31,6 +31,7 @@ the removed `is_ajax()` API with the same `X-Requested-With` header check,
 and uses a CSRF-protected POST form at the existing logout URL.
 Apply the normal Django and dependency migrations to a backed-up development
 database before running the application; no application migrations were changed.
+In-progress OAuth2 logins must restart after the social-auth upgrade.
 
 Settings are development defaults, not a production deployment configuration.
 Use deployment-specific secrets, hosts and debug settings. Local environment
